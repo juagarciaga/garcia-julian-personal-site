@@ -6,7 +6,7 @@ See also my [Google Scholar profile.](https://scholar.google.com.au/citations?hl
 
 ##### Journal Articles and Refereed Proceedings
 
-- Mostafa Rizk, Julian García, Aldeida Aleti and David Green. **Using Evolutionary Game Theory to Understand Scalability in Task Allocation.** (2022) In Proceedings of the Genetic and Evolutionary Computation Conference Companion (GECCO '22), Boston, USA, July 9–13, 2022, ACM [[pdf]](https://www.dropbox.com/s/oha3wfo85one04p/3520304.3529073.pdf?dl=0) [[Proceedings]]([Using evolutionary game theory to understand scalability in task allocation | Proceedings of the Genetic and Evolutionary Computation Conference Companion (acm.org)](https://dl.acm.org/doi/10.1145/3520304.3529073)). 
+- Mostafa Rizk, Julian García, Aldeida Aleti and David Green. **Using Evolutionary Game Theory to Understand Scalability in Task Allocation.** (2022) In Proceedings of the Genetic and Evolutionary Computation Conference Companion (GECCO '22), Boston, USA, July 9–13, 2022, ACM [[pdf]](https://www.dropbox.com/s/oha3wfo85one04p/3520304.3529073.pdf?dl=0) [[Proceedings]](https://dl.acm.org/doi/10.1145/3520304.3529073). 
 
 - Nicolas Anastassacos, Julian García, Stephen Hailes and Mirco Musolesi. **Cooperation and Reputation Dynamics with Reinforcement Learning.** (2021) In Proceedings of the 20th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2021), London, UK, May 3–7, 2021, IFAAMAS [[pdf]](https://www.dropbox.com/s/nzkvqmv63rmedfl/p115.pdf?dl=0) [[Proceedings]](https://dl.acm.org/doi/10.5555/3463952.3463972).
 
