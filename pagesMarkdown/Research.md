@@ -8,7 +8,7 @@ My research revolves around the question of how groups of agents can learn to co
 
 ###### **PhD opportunities**
 
-I am always interested in hearing from potential PhD students. We have a competitive scholarship scheme that can pay for living expenses and fees. In order to put together a competitive application it is expected **you will have already published at leeast a research paper** .
+I am always interested in hearing from potential PhD students. We have a competitive scholarship scheme that can pay for living expenses and fees. In order to put together a competitive application it is expected **you will have already published at least a research paper** .
 
  Should you be interested in doing a PhD with me, **please read one of my papers and briefly tell me how it relates to your own research interests**. I **will not** reply to your introduction email if you fail to do this.
 
