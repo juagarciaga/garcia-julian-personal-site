@@ -2,9 +2,15 @@
 title: PublicationsList
 ---
 
-See also my [Google Scholar profile.](https://scholar.google.com.au/citations?hl=en&user=nWHuAL4AAAAJ&view_op=list_works&sortby=pubdate)
+For a full list of publications please see my [Google Scholar profile.](https://scholar.google.com.au/citations?hl=en&user=nWHuAL4AAAAJ&view_op=list_works&sortby=pubdate)
 
-##### Journal Articles and Refereed Proceedings
+<!-- ##### Highlight Articles by Topic
+
+###### Science of Science
+
+###### Cooperation and Artificial Intelligence
+
+###### Cooperation and Artificial Intelligence
 
 - Mostafa Rizk, Julian García, Aldeida Aleti and David Green. **Using Evolutionary Game Theory to Understand Scalability in Task Allocation.** (2022) In Proceedings of the Genetic and Evolutionary Computation Conference Companion (GECCO '22), Boston, USA, July 9–13, 2022, ACM [[pdf]](https://www.dropbox.com/s/oha3wfo85one04p/3520304.3529073.pdf?dl=0) [[Proceedings]](https://dl.acm.org/doi/10.1145/3520304.3529073). 
 
@@ -72,3 +78,4 @@ See also my [Google Scholar profile.](https://scholar.google.com.au/citations?hl
 - David Green, Aldeida Aleti, and Julián García. **The Nature of Nature: Why Nature-Inspired Algorithms Work2017In Nature-Inspired Computing and Optimization.** Springer International Publishing, 1-27.[[link to publication]](https://link.springer.com/chapter/10.1007/978-3-319-50920-4_1?target=_blank).
 
 † Joint first authorship.
+ -->
