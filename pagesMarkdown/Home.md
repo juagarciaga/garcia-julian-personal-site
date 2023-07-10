@@ -2,9 +2,9 @@
 title: Home
 ---
 
-I am a Senior Lecturer at the [Faculty of Information Technology](href='http://www.infotech.monash.edu.au/ "Faculty of Information Technology"), [Monash University](http://www.monash.edu.au/ "Monash University").
+I am an Associate Professor at the [Faculty of Information Technology](href='http://www.infotech.monash.edu.au/ "Faculty of Information Technology"), [Monash University](http://www.monash.edu.au/ "Monash University").
 
-My research seeks to understand how self-interested agents (machines, humans and other animals) can learn to coordinate their actions without a central planner. I am particularly interested in social dilemmas and cooperation.
+My research seeks to understand how self-interested agents (machines, humans and other animals) can learn to coordinate their actions without a central planner. I am particularly interested in social dilemmas, cooperation, misinformation and democracy.
 
 I teach [computer science](https://www.monash.edu.au/pubs/handbooks/units/FIT1008.html), [algorithms](http://www.monash.edu.au/pubs/2015handbooks/units/FIT1029.html) and [computational modelling and simulation](https://handbook.monash.edu/current/units/FIT3139).
 
