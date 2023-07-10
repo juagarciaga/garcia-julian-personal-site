@@ -2,9 +2,9 @@
 title: Other
 ---
 
-##### **Social:**
+<!-- ##### **Social:**
 
-- Sometimes I tweet [@garcia_juliang](https://twitter.com/garcia_juliang).
+- Sometimes I tweet [@garcia_juliang](https://twitter.com/garcia_juliang). -->
 
 ##### **Media:**
 
