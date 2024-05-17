@@ -15,7 +15,7 @@ function getPostContent(slug: any) {
 }
 
 export async function generateMetadata({ params, searchParams }: any) {
-    const id = params?.slug ? ' ⋅ ' + params?.slug : ''
+    const id = params?.slug ? params?.slug : ''
     return {
         title: `Juliana Garcia ⋅ ${id.replaceAll('_', ' ')}`
     }
@@ -29,7 +29,7 @@ export default function ArticlePage(props: any) {
     return (
         <main>
             <Navigation activePage={slug} />
-            <div className="my-4 mx-auto main-container-custom">
+            <div className="py-4 mx-auto main-container-custom">
                 <div className="m-4">
                     <Markdown >{content}</Markdown>
                 </div>

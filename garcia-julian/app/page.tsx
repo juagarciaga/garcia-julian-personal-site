@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main>
       <Navigation activePage='home'/>
-      <div className="my-4 mx-auto main-container-custom isHome">
+      <div className="py-4 mx-auto main-container-custom isHome">
         <Intro/>
       </div>
       <Footer isHome/>

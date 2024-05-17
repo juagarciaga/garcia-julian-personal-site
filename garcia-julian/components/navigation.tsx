@@ -6,19 +6,19 @@ import {
     XMarkIcon,
 } from '@heroicons/react/24/outline'
 import Link from 'next/link'
-import { SlugLinks } from './constants'
+import { SlugLinks, bgColor } from './constants'
 
 
 export default function Navigation({ activePage }: any) {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
-        <header>
+        <header style={{background: bgColor}}>
             <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
                 <div className="flex lg:flex-1">
-                    <Link href="/" className="-m-1.5 p-1.5 text-gray-700">
+                    <Link href="/" className="-m-1.5 p-1.5 text-gray-700 no-underline">
                         <span className="sr-only">Julian Garcia</span>
-                        <h1 className='font-bold text-2xl text-black'>Julian Garcia</h1>
+                        <h1 className='no-underline font-bold text-2xl text-black'>Julian Garcia</h1>
                     </Link>
                 </div>
                 <div className="flex lg:hidden">
@@ -34,10 +34,10 @@ export default function Navigation({ activePage }: any) {
                 <Popover.Group className="hidden lg:flex lg:gap-x-12">
                     {SlugLinks.map((slug: string) => (
                         <Link key={slug} href={`/${slug}`}
-                            className={`text-sm font-semibold leading-6 text-gray-700 relative nav-link-custom ${activePage === slug && 'active'}`}
+                            className={`text-sm font-semibold leading-6 text-gray-500 text-xl relative nav-link-custom ${activePage === slug && ' active'}`}
                         >
-                            <span className='active-line'>{slug}</span>
                             {slug}
+                            <span className='active-line'>{slug}</span>
                         </Link>
                     ))}
                 </Popover.Group>
@@ -63,7 +63,7 @@ export default function Navigation({ activePage }: any) {
                             <div className="space-y-2 py-6">
                                 {SlugLinks.map((slug: string) => (
                                     <Link key={slug} href={`/${slug}`}
-                                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-700 hover:bg-gray-50 nav-link-custom">
+                                        className={`-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-700 hover:bg-gray-50 nav-link-custom  ${activePage === slug && ' active'}`}>
                                         {slug}
                                         <span className='active-line'>{slug}</span>
                                     </Link>

@@ -30,13 +30,14 @@ body {
   margin: 0 auto;
   left: -25%;
   right: 0;
-  bottom: -10px;
+  bottom: -25px;
   background: #434344;
   font-size: 0;
   opacity: 0;
 }
 
 .nav-link-custom {
+  text-decoration: unset;
   text-transform: capitalize;
 
   &.active {
@@ -56,9 +57,16 @@ body {
   }
 }
 
+a {
+  h1 {
+    text-decoration: unset;
+  }
+}
+
 footer {
-  bottom: 20px;
+  bottom: 0;
   width: 100%;
+  padding: 20px 0;
 }
 
 p {
@@ -74,9 +82,11 @@ ul {
   list-style: unset;
 }
 
-p>a {
-  color: rgb(0, 102, 204);
-  text-decoration: underline;
+main {
+  a {
+    color: rgb(0, 102, 204);
+    text-decoration: underline;
+  }
 }
 
 .wrapperPictureProfile {
@@ -100,7 +110,10 @@ p>a {
   margin: 10px 0;
   align-items: center;
   position: relative;
-  justify-content: center;
+
+  @media only screen and (max-width: 600px) {
+    justify-content: center;
+  }
 
   a {
     position: absolute;
@@ -126,7 +139,8 @@ p>a {
       height: auto;
     }
 
-    height: 80vh;
+    min-height: 80vh;
+    height: auto;
     border-bottom: 1px solid gray;
     border-top: 1px solid gray;
   }

@@ -1,11 +1,11 @@
 import React from "react"
 import { ContactInfoBlock } from "./contact-info-block"
+import { bgColor } from "./constants"
 
 export const Footer = ({ isHome }: any) => {
   return (
-    <footer className="lg:absolute md:relative sm:relative bg-white">
+    <footer className="lg:absolute md:relative sm:relative" style={{background: bgColor}}>
       {isHome && (
-
         <div className="lg:hidden md:inline-block text-center m-2 w-full">
           <ContactInfoBlock />
         </div>

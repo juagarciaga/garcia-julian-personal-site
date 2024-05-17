@@ -12,13 +12,13 @@ export const ContactInfoBlock = () => {
         <br />
         Monash University.
       </i>
-      <div className="flex info-svg">
+      <div className="flex info-svg sm:justify-center md:justify-center lg:justify-normal ">
         {icons['Email']}
         <span>julian dot garcia at monash dot edu</span>
         <a href="mailto:julian.garcia@monash.edu" />
       </div>
 
-      <div className="flex info-svg">
+      <div className="flex info-svg sm:justify-center md:justify-center lg:justify-normal ">
         <span className="text-black">
           {icons['Github']}
         </span>
@@ -33,7 +33,7 @@ export const ContactInfoBlock = () => {
         </a>
       </div>
 
-      <div className="flex info-svg">
+      <div className="flex info-svg lg:justify-normal md:justify-center sm:justify-center">
         <span className="text-red-500">
           {icons['LocationDot']}
         </span>
