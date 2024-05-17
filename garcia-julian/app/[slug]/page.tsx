@@ -23,7 +23,7 @@ export async function generateMetadata({ params, searchParams }: any) {
 
 export const generateStaticParams = () => {
     const posts = getMetadata(folderPath)
-    return posts.map((post) => ({ slug: post.slug.split('/')[1] }))
+    return posts.map((post) => ({ slug: post.slug }))
 }
 
 export default function ArticlePage(props: any) {
