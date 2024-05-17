@@ -21,6 +21,11 @@ export async function generateMetadata({ params, searchParams }: any) {
     }
 }
 
+export const generateStaticParams = () => {
+    const posts = getMetadata(folderPath)
+    return posts.map((post) => ({ slug: post.slug.split('/')[1] }))
+}
+
 export default function ArticlePage(props: any) {
     const { slug } = props.params
     const post = getPostContent(slug)
