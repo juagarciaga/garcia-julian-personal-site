@@ -1,5 +1,6 @@
 ---
 title: PublicationsList
+slug: publications
 ---
 
 For a full list of publications please see my [Google Scholar profile.](https://scholar.google.com.au/citations?hl=en&user=nWHuAL4AAAAJ&view_op=list_works&sortby=pubdate)
