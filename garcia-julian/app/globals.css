@@ -3,28 +3,135 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: #212529;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: light) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+} */
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  height: 100vh;
+  position: relative;
+  /* color: rgb(var(--foreground-rgb)); */
+  background: white;
+  --tw-text-opacity: 1;
+  color: #696969;
 }
+
+.active-line {
+  width: 150%;
+  height: 5px;
+  position: absolute;
+  margin: 0 auto;
+  left: -25%;
+  right: 0;
+  bottom: -10px;
+  background: #434344;
+  font-size: 0;
+  opacity: 0;
+}
+
+.nav-link-custom {
+  text-transform: capitalize;
+
+  &.active {
+    text-transform: capitalize;
+
+    >span {
+      opacity: 1;
+    }
+  }
+
+  &:hover {
+    >span {
+      opacity: 1;
+      transform: scaleX(1);
+      transition: all 0.5s ease-in-out;
+    }
+  }
+}
+
+footer {
+  bottom: 20px;
+  width: 100%;
+}
+
+p {
+  padding: 0;
+  margin: 0 0 1.45rem;
+}
+
+ol,
+ul {
+  padding: 0;
+  margin: 0 0 1.45rem 1.45rem;
+  list-style-position: outside;
+  list-style: unset;
+}
+
+p>a {
+  color: rgb(0, 102, 204);
+  text-decoration: underline;
+}
+
+.wrapperPictureProfile {
+  max-width: 220px;
+  border: 1px solid #dee2e6;
+  padding: 8px;
+  background-color: #fff;
+  border-radius: .25rem;
+  margin: 0 auto;
+
+  @media only screen and (max-width: 600px) {
+    max-width: 150px;
+  }
+
+  img {
+    margin: 0 auto;
+  }
+}
+
+.info-svg {
+  margin: 10px 0;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+
+  a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    font-size: 0;
+  }
+
+  svg {
+    width: 25px;
+    margin: 0 15px 0 0;
+    max-height: 25px;
+  }
+}
+
+.main-container-custom {
+  max-width: 600px;
+
+  @media only screen and (max-width: 600px) {
+
+    &.isHome {
+      height: auto;
+    }
+
+    height: 80vh;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+  }
+}
+
 
 @layer utilities {
   .text-balance {
