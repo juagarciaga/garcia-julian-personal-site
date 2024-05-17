@@ -1,5 +1,6 @@
 ---
 title: Research
+slug: research
 ---
 
 ###### **Research Themes**
