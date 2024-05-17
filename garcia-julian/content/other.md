@@ -1,5 +1,6 @@
 ---
 title: Other
+slug: other
 ---
 
 <!-- ##### **Social:**
