@@ -1,5 +1,6 @@
 ---
 title: Home
+slug: home
 ---
 
 I am Associate Professor at the [Faculty of Information Technology](href='http://www.infotech.monash.edu.au/ "Faculty of Information Technology"), [Monash University](http://www.monash.edu.au/ "Monash University").
