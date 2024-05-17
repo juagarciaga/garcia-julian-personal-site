@@ -4,7 +4,7 @@ import { bgColor } from "./constants"
 
 export const Footer = ({ isHome }: any) => {
   return (
-    <footer className="lg:absolute md:relative sm:relative" style={{background: bgColor}}>
+    <footer className="lg:fixed md:relative sm:relative" style={{background: bgColor, padding: "20px 0 0", bottom: 0}}>
       {isHome && (
         <div className="lg:hidden md:inline-block text-center m-2 w-full">
           <ContactInfoBlock />
