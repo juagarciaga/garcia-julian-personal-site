@@ -43,7 +43,7 @@ body {
   &.active {
     text-transform: capitalize;
 
-    >span {
+    >span {†
       opacity: 1;
     }
   }
@@ -67,6 +67,7 @@ footer {
   bottom: 0;
   width: 100%;
   padding: 20px 0;
+  bottom: 0;
 }
 
 p {
@@ -132,7 +133,7 @@ main {
 
 .main-container-custom {
   max-width: 600px;
-  padding: 0 0 20px;
+  padding: 0 0 45px;
 
   @media only screen and (max-width: 600px) {
 
