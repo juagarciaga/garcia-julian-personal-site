@@ -43,7 +43,7 @@ body {
   &.active {
     text-transform: capitalize;
 
-    >span {†
+    >span {
       opacity: 1;
     }
   }
