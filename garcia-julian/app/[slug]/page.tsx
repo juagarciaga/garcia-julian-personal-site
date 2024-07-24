@@ -5,8 +5,7 @@ import fs from 'fs'
 import matter from "gray-matter"
 import Navigation from "@/components/navigation"
 import { Footer } from "@/components/footer"
-import Script from 'next/script';
-import Image from "next/image";
+import { scriptStatCounter } from "@/components/constants"
 
 const folderPath = 'content/'
 
@@ -35,18 +34,7 @@ export default function ArticlePage(props: any) {
 
     return (
         <main>
-            <Script
-                src="https://www.statcounter.com/counter/counter.js"
-                strategy="worker"
-                id="13020501"
-            >
-                <div className="statcounter">
-                    <a title="Web Analytics" href="https://statcounter.com/" target="_blank">
-                        <Image className="statcounter" src="https://c.statcounter.com/13020501/0/f76d1f72/1/" alt="Web Analytics" referrerPolicy="no-referrer-when-downgrade" />
-                    </a>
-                </div>
-            </Script>
-
+            <div dangerouslySetInnerHTML={{ __html: scriptStatCounter }} />
             <Navigation activePage={slug} />
             <div className="py-4 mx-auto main-container-custom">
                 <div className="m-4">
