@@ -18,7 +18,7 @@ function getPostContent(slug: any) {
 export async function generateMetadata({ params, searchParams }: any) {
     const id = params?.slug ? params?.slug : ''
     return {
-        title: `Juliana Garcia ⋅ ${id.replaceAll('_', ' ')}`
+        title: `Julian Garcia ⋅ ${id.replaceAll('_', ' ')}`
     }
 }
 
