@@ -4,8 +4,6 @@ slug: teaching
 ---
 
 
-I am Director of [Undergraduate Studies](https://www.monash.edu/it/future-students/choose-a-degree) at the [Faculty of Information Technology](https://www.monash.edu/it/).
-
 I currently teach [Computational Modelling and Simulation](https://handbook.monash.edu/2020/units/FIT3139) (formerly known as Computational Science).
 
 I have also taught:

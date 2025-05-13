@@ -5,7 +5,9 @@ slug: research
 
 ###### **Research Themes**
 
-My research revolves around the question of how groups of agents can learn to coordinate individual decisions to achieve collective goals. Most of my research focuses on social dilemmas, i.e., situations where poor group outcomes arise from optimal individual choices. We use this framework to study: Multi-agent Systems and AI, Social Systems, and Models in Biology and Evolution. Please check my publications for more details.
+My research revolves around the question of how groups of agents can learn to coordinate individual decisions to achieve collective goals. Most of my research focuses on social dilemmas, i.e., situations where poor group outcomes arise from optimal individual choices. We use this framework to study Multi-agent Systems in AI and Social Systems in general. 
+
+Please check my publications for more details.
 
 ###### **PhD opportunities**
 

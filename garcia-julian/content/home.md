@@ -9,4 +9,4 @@ My research seeks to understand how self-interested agents (primarily machines a
 
 I teach [computer science](https://www.monash.edu.au/pubs/handbooks/units/FIT1008.html), [algorithms](http://www.monash.edu.au/pubs/2015handbooks/units/FIT1029.html) and [computational modelling and simulation](https://handbook.monash.edu/current/units/FIT3139).
 
-I am Director of [Academic Programs](https://www.monash.edu/it/future-students/choose-a-degree) at the [Faculty of Information Technology](https://www.monash.edu/it/) and have led processes of curriculum design and accreditation across [all our educational offerings](https://www.monash.edu/it/future-students).
+I am part of the [Optmisation group](https://www.monash.edu/it/dsai/optimisation) in the [Department of Data Science and Artificial Intelligence](https://www.monash.edu/it/dsai). 
