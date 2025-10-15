@@ -3,4 +3,4 @@ title: CV
 slug: cv
 ---
 
-A short résumé can be found [here](https://www.dropbox.com/scl/fi/3tjt1owgdnjwmkz3zplxu/cv_garcia.pdf?rlkey=m5uymly0c5ovn6aah4rxtmcj9&dl=0).
+A short résumé can be found [here](https://www.dropbox.com/scl/fi/7ocakzgo4rsj667yp2bzk/cv_garcia.pdf?rlkey=ms18uxqoemgzhd4miijgjbdog&st=s756j6vi&dl=0).
