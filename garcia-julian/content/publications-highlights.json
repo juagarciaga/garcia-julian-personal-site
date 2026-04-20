@@ -27,6 +27,26 @@
   ],
   "papers": [
     {
+      "title": "Group Selection as a Safeguard Against AI Substitution",
+      "authors": "Qiankun Zhong, Thomas F. Eisenmann, <u>Julian García</u> and Iyad Rahwan",
+      "venue": "arXiv preprint",
+      "year": 2026,
+      "summary": "Dependence on generative AI can diminish cultural variance and diversity, especially in creative work. We use evolutionary theory to examine how different AI usage patterns — tool use vs full substitution — affect collective outcomes, and show that group selection can safeguard against homogenisation.",
+      "link": "https://arxiv.org/abs/2602.03541",
+      "linkLabel": "arXiv",
+      "topics": ["social", "ai"]
+    },
+    {
+      "title": "Hybrid Human-Agent Social Dilemmas in Energy Markets",
+      "authors": "Isuri Perera, Frits de Nijs and <u>Julian García</u>",
+      "venue": "arXiv preprint",
+      "year": 2026,
+      "summary": "What happens when humans and autonomous agents interact strategically in energy markets? We show that artificial agents using observable signals can improve coordination, and that early adopters face no structural disadvantage despite potential free-rider dynamics.",
+      "link": "https://arxiv.org/abs/2603.11834",
+      "linkLabel": "arXiv",
+      "topics": ["social", "ai"]
+    },
+    {
       "title": "Learning to cooperate against ensembles of diverse opponents",
       "authors": "Isuri Perera, Frits de Nijs and <u>Julian García</u>",
       "venue": "Neural Computing and Applications",

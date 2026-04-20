@@ -70,7 +70,7 @@ export default function PublicationsHighlights({ data }: { data: HighlightsData 
       </div>
 
       {visibleTopics.map((topic, topicIdx) => {
-        const topicPapers = papers.filter((p) => p.topics.includes(topic.id))
+        const topicPapers = papers.filter((p) => p.topics.includes(topic.id)).sort((a, b) => b.year - a.year)
         return (
           <div key={topic.id} className="mb-8">
             <h3 className="text-lg font-bold text-gray-800 mb-1">
