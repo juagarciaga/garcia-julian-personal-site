@@ -6,7 +6,7 @@ import {
     XMarkIcon,
 } from '@heroicons/react/24/outline'
 import Link from 'next/link'
-import { SlugLinks, bgColor } from './constants'
+import { NavLinks, bgColor } from './constants'
 
 
 export default function Navigation({ activePage }: any) {
@@ -31,13 +31,13 @@ export default function Navigation({ activePage }: any) {
                         <Bars3Icon className="h-6 w-6" aria-hidden="true" />
                     </button>
                 </div>
-                <Popover.Group className="hidden lg:flex lg:gap-x-12">
-                    {SlugLinks.map((slug: string) => (
-                        <Link key={slug} href={`/${slug}`}
-                            className={`text-sm font-semibold leading-6 text-gray-500 text-xl relative nav-link-custom ${activePage === slug && ' active'}`}
+                <Popover.Group className="hidden lg:flex lg:gap-x-10">
+                    {NavLinks.map((item) => (
+                        <Link key={item.slug} href={item.href}
+                            className={`text-base font-semibold leading-6 text-gray-500 relative nav-link-custom ${activePage === item.slug && ' active'}`}
                         >
-                            {slug}
-                            <span className='active-line'>{slug}</span>
+                            {item.label}
+                            <span className='active-line'>{item.label}</span>
                         </Link>
                     ))}
                 </Popover.Group>
@@ -61,11 +61,11 @@ export default function Navigation({ activePage }: any) {
                     <div className="mt-6 flow-root">
                         <div className="-my-6 divide-y divide-gray-500/10">
                             <div className="space-y-2 py-6">
-                                {SlugLinks.map((slug: string) => (
-                                    <Link key={slug} href={`/${slug}`}
-                                        className={`-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-700 hover:bg-gray-50 nav-link-custom  ${activePage === slug && ' active'}`}>
-                                        {slug}
-                                        <span className='active-line'>{slug}</span>
+                                {NavLinks.map((item) => (
+                                    <Link key={item.slug} href={item.href}
+                                        className={`-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-700 hover:bg-gray-50 nav-link-custom  ${activePage === item.slug && ' active'}`}>
+                                        {item.label}
+                                        <span className='active-line'>{item.label}</span>
                                     </Link>
                                 ))}
                             </div>

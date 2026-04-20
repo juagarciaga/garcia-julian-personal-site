@@ -1,13 +1,16 @@
-export const bgColor= '#f8f9fa'
+export const bgColor= '#f1f5f9'
 export const folderPath = 'content/'
 
-export const SlugLinks = [
-    "publications",
-    "teaching",
-    "research",
-    "cv",
-    "other"
+export const NavLinks = [
+    { slug: "home", label: "🏠 home", href: "/" },
+    { slug: "publications", label: "📚 publications", href: "/publications" },
+    { slug: "teaching", label: "🎓 teaching", href: "/teaching" },
+    { slug: "research", label: "🔬 research", href: "/research" },
+    { slug: "other", label: "🎭 other", href: "/other" },
 ]
+
+// Keep for backward compat with [slug] route
+export const SlugLinks = ["teaching", "research", "other"]
 
 export const scriptStatCounter = `
 <!-- Default Statcounter code for Personal webpage http://garciajulian.com -->

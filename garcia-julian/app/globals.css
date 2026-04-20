@@ -17,10 +17,9 @@
 body {
   height: 100vh;
   position: relative;
-  /* color: rgb(var(--foreground-rgb)); */
   background: white;
   --tw-text-opacity: 1;
-  color: #696969;
+  color: #374151;
 }
 
 .active-line {
@@ -70,10 +69,12 @@ footer {
   bottom: 0;
 }
 
-h1 { font-size: 2rem; font-weight: 700; margin: 0 0 1rem; }
-h2 { font-size: 1.5rem; font-weight: 700; margin: 0 0 0.75rem; }
-h3 { font-size: 1.25rem; font-weight: 600; margin: 0 0 0.75rem; }
-h4 { font-size: 1.1rem; font-weight: 600; margin: 0 0 0.5rem; }
+h1 { font-size: 2rem; font-weight: 700; margin: 0 0 1rem; color: #111827; }
+h2 { font-size: 1.5rem; font-weight: 700; margin: 0 0 0.75rem; color: #111827; }
+h3 { font-size: 1.25rem; font-weight: 600; margin: 0 0 0.75rem; color: #111827; }
+h4 { font-size: 1.1rem; font-weight: 600; margin: 0 0 0.5rem; color: #111827; }
+h5 { font-size: 1rem; font-weight: 600; margin: 0 0 0.5rem; color: #111827; }
+h6 { font-size: 0.9rem; font-weight: 600; margin: 0 0 0.5rem; color: #111827; }
 
 p {
   padding: 0;
@@ -90,18 +91,19 @@ ul {
 
 main {
   a {
-    color: rgb(0, 102, 204);
+    color: #2563eb;
     text-decoration: underline;
   }
 }
 
 .wrapperPictureProfile {
-  max-width: 220px;
-  border: 1px solid #dee2e6;
-  padding: 8px;
+  max-width: 200px;
+  padding: 0;
   background-color: #fff;
-  border-radius: .25rem;
+  border-radius: 12px;
   margin: 0 auto;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 
   @media only screen and (max-width: 600px) {
     max-width: 150px;
@@ -109,6 +111,7 @@ main {
 
   img {
     margin: 0 auto;
+    border-radius: 12px;
   }
 }
 
@@ -137,8 +140,8 @@ main {
 }
 
 .main-container-custom {
-  max-width: 600px;
-  padding: 0 0 45px;
+  max-width: 720px;
+  padding: 0 0 60px;
 
   @media only screen and (max-width: 600px) {
 
@@ -148,8 +151,8 @@ main {
 
     min-height: 80vh;
     height: auto;
-    border-bottom: 1px solid gray;
-    border-top: 1px solid gray;
+    border-bottom: 1px solid #e5e7eb;
+    border-top: 1px solid #e5e7eb;
   }
 }
 
