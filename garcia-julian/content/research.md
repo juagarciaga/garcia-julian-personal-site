@@ -11,8 +11,8 @@ Please check my publications for more details.
 
 ###### **PhD opportunities**
 
-I am always interested in hearing from potential PhD students. We have a competitive scholarship scheme that can pay for living expenses and fees. In order to put together a competitive application it is expected **you will have already published at least a research paper** .
+I am always interested in hearing from potential PhD students. We have a competitive scholarship scheme that can pay for living expenses and fees.
 
- Should you be interested in doing a PhD with me, **please read one of my papers and briefly tell me how it relates to your own research interests**. I **will not** reply to your introduction email if you fail to do this.
+If you are considering a PhD with me, please start by completing my **[prospective student self-assessment](/phd)**. It will help you gauge how competitive your profile is and generate an email template to get in touch. Emails that do not follow this format are filtered automatically.
 
 [Here’s more about applying for PhD studies at Monash](http://www.infotech.monash.edu.au/research/degrees/prospective-students/how-to-apply.html). 
