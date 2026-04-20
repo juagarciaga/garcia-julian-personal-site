@@ -24,7 +24,9 @@ export async function generateMetadata({ params, searchParams }: any) {
 
 export const generateStaticParams = () => {
     const posts = getMetadata(folderPath)
-    return posts.map((post) => ({ slug: post.slug }))
+    return posts
+        .filter((post) => post.slug !== 'publications')
+        .map((post) => ({ slug: post.slug }))
 }
 
 export default function ArticlePage(props: any) {

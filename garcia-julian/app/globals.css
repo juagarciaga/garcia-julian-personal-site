@@ -70,6 +70,11 @@ footer {
   bottom: 0;
 }
 
+h1 { font-size: 2rem; font-weight: 700; margin: 0 0 1rem; }
+h2 { font-size: 1.5rem; font-weight: 700; margin: 0 0 0.75rem; }
+h3 { font-size: 1.25rem; font-weight: 600; margin: 0 0 0.75rem; }
+h4 { font-size: 1.1rem; font-weight: 600; margin: 0 0 0.5rem; }
+
 p {
   padding: 0;
   margin: 0 0 1.45rem;

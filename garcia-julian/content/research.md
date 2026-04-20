@@ -3,11 +3,27 @@ title: Research
 slug: research
 ---
 
-###### **Research Themes**
+## Research
 
-My research revolves around the question of how groups of agents can learn to coordinate individual decisions to achieve collective goals. Most of my research focuses on social dilemmas, i.e., situations where poor group outcomes arise from optimal individual choices. We use this framework to study Multi-agent Systems in AI and Social Systems in general. 
+My research revolves around the question of how groups of agents can learn to coordinate individual decisions to achieve collective goals. We use game theory, simulations and AI to study these problems across several areas.
 
-Please check my publications for more details.
+#### 🤖 [AI & Multi-agent Systems](/publications?topic=ai)
+
+Game theory provides a natural framework for understanding and designing AI agents that must coordinate, compete, or cooperate with others. We use evolutionary game theory and reinforcement learning to study how cooperation can emerge in decentralised multi-agent systems.
+
+#### 🏙️ [Social Dynamics](/publications?topic=social)
+
+Human societies face collective action problems everywhere. We use game theory and simulations to understand how cooperation and social norms emerge and break down.
+
+#### 🎲 [Game Theory](/publications?topic=gametheory)
+
+We work on foundational questions in evolutionary game theory — how strategies evolve in repeated interactions, what role can learning play in equilibrium selection, and how to use computation and AI to answer questions relevant to strategic interaction and decision making.
+
+#### 🔬 [Science of Science](/publications?topic=metascience)
+
+Scientific institutions — journals, peer review, public communication — are themselves strategic systems. We apply game theory to understand how incentives shape the quality of science and its public understanding.
+
+See [publication highlights](/publications) for selected papers in each area.
 
 ###### **PhD opportunities**
 
