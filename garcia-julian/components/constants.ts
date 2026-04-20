@@ -3,14 +3,14 @@ export const folderPath = 'content/'
 
 export const NavLinks = [
     { slug: "home", label: "🏠 home", href: "/" },
-    { slug: "publications", label: "📚 publications", href: "/publications" },
-    { slug: "teaching", label: "🎓 teaching", href: "/teaching" },
     { slug: "research", label: "🔬 research", href: "/research" },
-    { slug: "other", label: "🎭 other", href: "/other" },
+    { slug: "papers", label: "📚 papers", href: "/papers" },
+    { slug: "teaching", label: "🎓 teaching", href: "/teaching" },
+    { slug: "join", label: "🤝 join us", href: "/join" },
 ]
 
 // Keep for backward compat with [slug] route
-export const SlugLinks = ["teaching", "research", "other"]
+export const SlugLinks = ["teaching", "research"]
 
 export const scriptStatCounter = `
 <!-- Default Statcounter code for Personal webpage http://garciajulian.com -->

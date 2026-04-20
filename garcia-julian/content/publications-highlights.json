@@ -34,7 +34,7 @@
       "summary": "Dependence on generative AI can diminish cultural variance and diversity, especially in creative work. We use evolutionary theory to examine how different AI usage patterns — tool use vs full substitution — affect collective outcomes, and show that group selection can safeguard against homogenisation.",
       "link": "https://arxiv.org/abs/2602.03541",
       "linkLabel": "arXiv",
-      "topics": ["social", "ai"]
+      "topics": ["social"]
     },
     {
       "title": "Hybrid Human-Agent Social Dilemmas in Energy Markets",
@@ -44,7 +44,7 @@
       "summary": "What happens when humans and autonomous agents interact strategically in energy markets? We show that artificial agents using observable signals can improve coordination, and that early adopters face no structural disadvantage despite potential free-rider dynamics.",
       "link": "https://arxiv.org/abs/2603.11834",
       "linkLabel": "arXiv",
-      "topics": ["social", "ai"]
+      "topics": ["ai"]
     },
     {
       "title": "Learning to cooperate against ensembles of diverse opponents",
@@ -144,6 +144,36 @@
       "summary": "We train models to detect logical fallacies in climate misinformation, achieving 2.5–3.5x better detection than prior work. Fake experts and anecdotal arguments are easiest to catch; fallacies requiring background knowledge remain harder.",
       "link": "https://doi.org/10.1038/s41598-024-76139-w",
       "linkLabel": "Journal",
+      "topics": ["metascience"]
+    }
+  ],
+  "media": [
+    {
+      "title": "Visible punishment key to large-scale cooperation",
+      "outlet": "phys.org",
+      "summary": "A nice summary of our work on pro-social institutions to enable large-scale cooperation.",
+      "link": "https://phys.org/news/2019-07-visible-key-large-scale-cooperation.html",
+      "topics": ["social"]
+    },
+    {
+      "title": "Repeated games and direct reciprocity — perspective in Science",
+      "outlet": "Science",
+      "summary": "Our work on direct reciprocity in structured populations was featured in a perspective by Thom Sherratt and Gilbert Roberts.",
+      "link": "https://science.sciencemag.org/content/337/6100/1304",
+      "topics": ["gametheory"]
+    },
+    {
+      "title": "Simulating the cooperation dilemma",
+      "outlet": "I, Science",
+      "summary": "An interview about the role of computational models in understanding the evolution of cooperation.",
+      "link": "https://isciencemag.co.uk/news/simulating-the-cooperation-dilemma/",
+      "topics": ["social"]
+    },
+    {
+      "title": "Journals and Scientists' Incentives — talk",
+      "outlet": "YouTube",
+      "summary": "A talk on how journal incentives shape the quality of peer review and scientific publishing.",
+      "link": "https://www.youtube.com/watch?v=FST7Gavq6Nc&t=1273s",
       "topics": ["metascience"]
     }
   ]

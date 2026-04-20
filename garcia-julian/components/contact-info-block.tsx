@@ -4,7 +4,7 @@ import { icons } from "./icons"
 
 export const ContactInfoBlock = () => {
   return (
-    <div className="ContactInfoBlock text-black">
+    <div className="ContactInfoBlock text-black text-sm">
       <i>
         Department of AI and Data Science
         <br />
@@ -37,9 +37,9 @@ export const ContactInfoBlock = () => {
         <span className="text-red-500">
           {icons['LocationDot']}
         </span>
-        29 Ancora Imparo Way, Clayton
+        Office 232F, 20 Exhibition Walk
         <br />
-        VIC 3800, Australia
+        Clayton VIC 3800, Australia
       </div>
     </div>
   )

@@ -16,7 +16,7 @@ export const Intro = () => {
     const { content } = post
     return (
         <>
-            <div className="justify-center items-center gap-4 md:flex sm:flex-column m-4">
+            <div className="justify-center items-center gap-2 md:flex sm:flex-column m-4">
                 <div className="wrapperPictureProfile">
                     <Image
                         src="/picture-profile.jpeg"

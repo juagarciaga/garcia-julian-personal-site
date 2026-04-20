@@ -12,6 +12,14 @@ type Paper = {
   topics: string[]
 }
 
+type MediaItem = {
+  title: string
+  outlet: string
+  summary: string
+  link: string
+  topics: string[]
+}
+
 type Topic = {
   id: string
   emoji: string
@@ -22,10 +30,11 @@ type Topic = {
 type HighlightsData = {
   topics: Topic[]
   papers: Paper[]
+  media: MediaItem[]
 }
 
 export default function PublicationsHighlights({ data }: { data: HighlightsData }) {
-  const { topics, papers } = data
+  const { topics, papers, media = [] } = data
   const [selectedTopic, setSelectedTopic] = useState(topics[0]?.id || 'all')
 
   useEffect(() => {
@@ -41,8 +50,9 @@ export default function PublicationsHighlights({ data }: { data: HighlightsData 
 
   return (
     <div>
-      <p className="mb-4">
-        📚 For a complete and up-to-date list, see my{' '}
+      <h3>📚 Full List</h3>
+      <p className="mb-6">
+        For a complete and up-to-date publication list, see my{' '}
         <a
           href="https://scholar.google.com.au/citations?hl=en&user=nWHuAL4AAAAJ&view_op=list_works&sortby=pubdate"
           target="_blank"
@@ -53,8 +63,10 @@ export default function PublicationsHighlights({ data }: { data: HighlightsData 
         .
       </p>
 
+      <hr className="my-6" />
+
       <div className="mb-6">
-        <label className="block text-sm font-semibold text-gray-700 mb-1">Filter by area</label>
+        <h3>Filter by Area</h3>
         <select
           value={selectedTopic}
           onChange={(e) => setSelectedTopic(e.target.value)}
@@ -70,17 +82,22 @@ export default function PublicationsHighlights({ data }: { data: HighlightsData 
       </div>
 
       {visibleTopics.map((topic, topicIdx) => {
-        const topicPapers = papers.filter((p) => p.topics.includes(topic.id)).sort((a, b) => b.year - a.year)
+        const topicPapers = papers
+          .filter((p) => p.topics.includes(topic.id))
+          .sort((a, b) => b.year - a.year)
+        const topicMedia = media.filter((m) => m.topics.includes(topic.id))
+
         return (
           <div key={topic.id} className="mb-8">
-            <h3 className="text-lg font-bold text-gray-800 mb-1">
+            <h4 className="font-bold text-gray-800 mb-1">
               {topic.emoji} {topic.name}
-            </h3>
+            </h4>
             <p className="text-sm text-gray-600 mb-4">{topic.description}</p>
 
-            <ul className="list-disc ml-4 space-y-4">
+            <h5 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-2">📄 Papers</h5>
+            <ul className="list-disc ml-4 space-y-4 mb-4">
               {topicPapers.map((paper, i) => (
-                <li key={i}>
+                <li key={`paper-${i}`}>
                   <p className="mb-0">
                     <strong>{paper.title}</strong>{' '}
                     <a href={paper.link} target="_blank" rel="noopener noreferrer">
@@ -97,6 +114,25 @@ export default function PublicationsHighlights({ data }: { data: HighlightsData 
                 </li>
               ))}
             </ul>
+
+            {topicMedia.length > 0 && (
+              <div className="mt-4">
+                <h5 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-2">📰 Media</h5>
+                <ul className="list-disc ml-4 space-y-4">
+                  {topicMedia.map((item, i) => (
+                    <li key={`media-${i}`}>
+                      <p className="mb-0">
+                        <a href={item.link} target="_blank" rel="noopener noreferrer">
+                          <strong>{item.title}</strong>
+                        </a>{' '}
+                        <span className="text-gray-400">— {item.outlet}</span>
+                      </p>
+                      <p className="text-sm text-gray-600 mb-0">{item.summary}</p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
 
             {topicIdx < visibleTopics.length - 1 && <hr className="my-6" />}
           </div>
