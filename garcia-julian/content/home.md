@@ -9,4 +9,8 @@ My research seeks to understand how self-interested agents (primarily machines a
 
 I teach [computer science](https://www.monash.edu.au/pubs/handbooks/units/FIT1008.html), [algorithms](http://www.monash.edu.au/pubs/2015handbooks/units/FIT1029.html) and [computational modelling and simulation](https://handbook.monash.edu/current/units/FIT3139).
 
-I am part of the [Optmisation group](https://www.monash.edu/it/dsai/optimisation) in the [Department of Data Science and Artificial Intelligence](https://www.monash.edu/it/dsai). 
+I am part of the [Optimisation group](https://www.monash.edu/it/dsai/optimisation) in the [Department of Data Science and Artificial Intelligence](https://www.monash.edu/it/dsai). 
+
+---
+
+🎓 **Prospective PhD students:** please complete the [self-assessment](/phd) before reaching out — it helps you gauge your competitiveness and generates the email format I need to see your message.
