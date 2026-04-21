@@ -11,7 +11,7 @@ I teach [computer science](https://www.monash.edu.au/pubs/handbooks/units/FIT100
 
 I am part of the [Optimisation group](https://www.monash.edu/it/dsai/optimisation). I am also affiliated with the [Environmental Informatics Hub](https://www.monash.edu/it/environmental-informatics-hub).
 
-📄 A reasonably complete [CV is here](https://www.dropbox.com/scl/fi/7ocakzgo4rsj667yp2bzk/cv_garcia.pdf?rlkey=ms18uxqoemgzhd4miijgjbdog&st=s756j6vi&dl=0), but ask me if you need something up to date.
+📄 A reasonably complete [CV is here](/cv_garcia.pdf), but ask me if you need something up to date.
 
 ---
 
