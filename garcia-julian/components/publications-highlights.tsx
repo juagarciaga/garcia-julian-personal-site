@@ -12,14 +12,6 @@ type Paper = {
   topics: string[]
 }
 
-type MediaItem = {
-  title: string
-  outlet: string
-  summary: string
-  link: string
-  topics: string[]
-}
-
 type Topic = {
   id: string
   emoji: string
@@ -30,12 +22,11 @@ type Topic = {
 type HighlightsData = {
   topics: Topic[]
   papers: Paper[]
-  media: MediaItem[]
 }
 
 export default function PublicationsHighlights({ data }: { data: HighlightsData }) {
-  const { topics, papers, media = [] } = data
-  const [selectedTopic, setSelectedTopic] = useState(topics[0]?.id || 'all')
+  const { topics, papers } = data
+  const [selectedTopic, setSelectedTopic] = useState('gametheory')
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search)
@@ -66,7 +57,7 @@ export default function PublicationsHighlights({ data }: { data: HighlightsData 
       <hr className="my-6" />
 
       <div className="mb-6">
-        <h3>Filter by Area</h3>
+        <h3>Highlights by Area</h3>
         <select
           value={selectedTopic}
           onChange={(e) => setSelectedTopic(e.target.value)}
@@ -85,8 +76,6 @@ export default function PublicationsHighlights({ data }: { data: HighlightsData 
         const topicPapers = papers
           .filter((p) => p.topics.includes(topic.id))
           .sort((a, b) => b.year - a.year)
-        const topicMedia = media.filter((m) => m.topics.includes(topic.id))
-
         return (
           <div key={topic.id} className="mb-8">
             <h4 className="font-bold text-gray-800 mb-1">
@@ -114,25 +103,6 @@ export default function PublicationsHighlights({ data }: { data: HighlightsData 
                 </li>
               ))}
             </ul>
-
-            {topicMedia.length > 0 && (
-              <div className="mt-4">
-                <h5 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-2">📰 Media</h5>
-                <ul className="list-disc ml-4 space-y-4">
-                  {topicMedia.map((item, i) => (
-                    <li key={`media-${i}`}>
-                      <p className="mb-0">
-                        <a href={item.link} target="_blank" rel="noopener noreferrer">
-                          <strong>{item.title}</strong>
-                        </a>{' '}
-                        <span className="text-gray-400">— {item.outlet}</span>
-                      </p>
-                      <p className="text-sm text-gray-600 mb-0">{item.summary}</p>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            )}
 
             {topicIdx < visibleTopics.length - 1 && <hr className="my-6" />}
           </div>

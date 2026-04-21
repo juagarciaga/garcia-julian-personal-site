@@ -1,7 +1,6 @@
 import Navigation from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { scriptStatCounter } from "@/components/constants"
-import PhDScreener from "@/components/phd-screener"
 
 export const metadata = {
   title: 'Julian Garcia · Join Us',
@@ -33,7 +32,13 @@ export default function JoinPage() {
           <hr className="my-6" />
 
           <h3>🎓 PhD Opportunities</h3>
-          <PhDScreener />
+          <p className="text-sm text-gray-600 mb-4">
+            I am always happy to hear from potential PhD students. If you are interested in pursuing
+            a PhD under my supervision, please complete the{' '}
+            <a href="/phd">PhD self-assessment</a> — it helps you gauge whether your profile is
+            competitive for a funded position and generates the email format I need to see your
+            message.
+          </p>
         </div>
       </div>
       <Footer />

@@ -25,7 +25,7 @@ export async function generateMetadata({ params, searchParams }: any) {
 export const generateStaticParams = () => {
     const posts = getMetadata(folderPath)
     return posts
-        .filter((post) => !['publications', 'cv', 'other'].includes(post.slug))
+        .filter((post) => !['publications', 'cv'].includes(post.slug))
         .map((post) => ({ slug: post.slug }))
 }
 

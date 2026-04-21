@@ -146,35 +146,5 @@
       "linkLabel": "Journal",
       "topics": ["metascience"]
     }
-  ],
-  "media": [
-    {
-      "title": "Visible punishment key to large-scale cooperation",
-      "outlet": "phys.org",
-      "summary": "A nice summary of our work on pro-social institutions to enable large-scale cooperation.",
-      "link": "https://phys.org/news/2019-07-visible-key-large-scale-cooperation.html",
-      "topics": ["social"]
-    },
-    {
-      "title": "Repeated games and direct reciprocity — perspective in Science",
-      "outlet": "Science",
-      "summary": "Our work on direct reciprocity in structured populations was featured in a perspective by Thom Sherratt and Gilbert Roberts.",
-      "link": "https://science.sciencemag.org/content/337/6100/1304",
-      "topics": ["gametheory"]
-    },
-    {
-      "title": "Simulating the cooperation dilemma",
-      "outlet": "I, Science",
-      "summary": "An interview about the role of computational models in understanding the evolution of cooperation.",
-      "link": "https://isciencemag.co.uk/news/simulating-the-cooperation-dilemma/",
-      "topics": ["social"]
-    },
-    {
-      "title": "Journals and Scientists' Incentives — talk",
-      "outlet": "YouTube",
-      "summary": "A talk on how journal incentives shape the quality of peer review and scientific publishing.",
-      "link": "https://www.youtube.com/watch?v=FST7Gavq6Nc&t=1273s",
-      "topics": ["metascience"]
-    }
   ]
 }

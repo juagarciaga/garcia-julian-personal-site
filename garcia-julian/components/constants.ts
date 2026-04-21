@@ -6,11 +6,12 @@ export const NavLinks = [
     { slug: "research", label: "🔬 research", href: "/research" },
     { slug: "papers", label: "📚 papers", href: "/papers" },
     { slug: "teaching", label: "🎓 teaching", href: "/teaching" },
+    { slug: "outreach", label: "📺 outreach", href: "/outreach" },
     { slug: "join", label: "🤝 join us", href: "/join" },
 ]
 
 // Keep for backward compat with [slug] route
-export const SlugLinks = ["teaching", "research"]
+export const SlugLinks = ["teaching", "research", "outreach"]
 
 export const scriptStatCounter = `
 <!-- Default Statcounter code for Personal webpage http://garciajulian.com -->
