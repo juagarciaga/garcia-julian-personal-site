@@ -16,22 +16,24 @@ export const Intro = () => {
     const { content } = post
     return (
         <>
-            <div className="justify-center items-center gap-2 md:flex sm:flex-column m-4">
-                <div className="wrapperPictureProfile">
-                    <Image
-                        src="/picture-profile.jpeg"
-                        alt="Julian Garcia"
-                        width={300}
-                        height={76}
-                        priority
-                    />
+            <div className="lg:flex lg:gap-8 m-4">
+                <div className="flex-shrink-0">
+                    <div className="wrapperPictureProfile">
+                        <Image
+                            src="/picture-profile.jpeg"
+                            alt="Julian Garcia"
+                            width={300}
+                            height={76}
+                            priority
+                        />
+                    </div>
+                    <div className="hidden lg:block mt-4">
+                        <ContactInfoBlock />
+                    </div>
                 </div>
-                <div className="hidden sm:hidden lg:block">
-                    <ContactInfoBlock />
+                <div>
+                    <Markdown>{content}</Markdown>
                 </div>
-            </div>
-            <div className="m-4">
-                <Markdown>{content}</Markdown>
             </div>
         </>
     )
