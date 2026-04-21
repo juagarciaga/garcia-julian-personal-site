@@ -15,8 +15,9 @@ function getPostContent(slug: any) {
     return matter(content)
 }
 
-export async function generateMetadata({ params, searchParams }: any) {
-    const id = params?.slug ? params?.slug : ''
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+    const { slug } = await params
+    const id = slug || ''
     return {
         title: `Julian Garcia ⋅ ${id.replaceAll('_', ' ')}`
     }
@@ -29,8 +30,8 @@ export const generateStaticParams = () => {
         .map((post) => ({ slug: post.slug }))
 }
 
-export default function ArticlePage(props: any) {
-    const { slug } = props.params
+export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
+    const { slug } = await params
     const post = getPostContent(slug)
     const { content } = post
 

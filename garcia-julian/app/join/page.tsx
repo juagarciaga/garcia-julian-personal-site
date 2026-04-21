@@ -1,6 +1,7 @@
 import Navigation from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { scriptStatCounter } from "@/components/constants"
+import Link from "next/link"
 
 export const metadata = {
   title: 'Julian Garcia · Join Us',
@@ -17,7 +18,7 @@ export default function JoinPage() {
 
           <h3>🍎 Honours Students</h3>
           <p className="text-sm text-gray-600 mb-4">
-            I supervise Honours projects related to my <a href="/research">research themes</a> —
+            I supervise Honours projects related to my <Link href="/research">research themes</Link> —
             game theory, multi-agent systems, and computational modelling. If you are a Monash
             student interested in an Honours project, feel free to get in touch by email.
           </p>
@@ -35,7 +36,7 @@ export default function JoinPage() {
           <p className="text-sm text-gray-600 mb-4">
             I am always happy to hear from potential PhD students. If you are interested in pursuing
             a PhD under my supervision, please complete the{' '}
-            <a href="/phd">PhD self-assessment</a> — it helps you gauge whether your profile is
+            <Link href="/phd">PhD self-assessment</Link> — it helps you gauge whether your profile is
             competitive for a funded position and generates the email format I need to see your
             message.
           </p>
