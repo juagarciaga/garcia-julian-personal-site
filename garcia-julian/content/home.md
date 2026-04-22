@@ -3,7 +3,7 @@ title: Home
 slug: home
 ---
 
-I am Associate Professor at the [Faculty of Information Technology](http://www.infotech.monash.edu.au/), [Monash University](http://www.monash.edu.au/ "Monash University"). I am part of the [Optimisation group](https://www.monash.edu/it/dsai/optimisation). I am also affiliated with the [Environmental Informatics Hub](https://www.monash.edu/it/environmental-informatics-hub).
+I am Associate Professor at the [Faculty of Information Technology](https://www.monash.edu/it), [Monash University](http://www.monash.edu.au/ "Monash University"). I am part of the [Optimisation group](https://www.monash.edu/it/dsai/optimisation). I am also affiliated with the [Environmental Informatics Hub](https://www.monash.edu/it/environmental-informatics-hub).
 
 
 My research seeks to understand how self-interested agents (primarily machines and humans) can learn to coordinate their actions without a central planner. See [research](/research) for more.
