@@ -25,7 +25,7 @@ export default function JoinPage() {
 
           <h3>☀️ Summer & Winter Scholarships</h3>
           <p className="text-sm text-gray-600 mb-6">
-            Monash offers <a href="https://www.monash.edu/it/about-us/summer-winter-research" target="_blank" rel="noopener noreferrer">summer and winter research scholarships</a> for
+            Monash offers <a href="https://www.monash.edu/study/fees-scholarships/scholarships/summer-winter" target="_blank" rel="noopener noreferrer">summer and winter research scholarships</a> for
             undergraduate students. These are a great way to get a taste of research. If you are
             interested in working with me on a short project, check the deadlines and get in touch.
           </p>
