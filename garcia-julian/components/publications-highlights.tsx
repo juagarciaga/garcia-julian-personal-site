@@ -9,6 +9,7 @@ type Paper = {
   summary: string
   link: string
   linkLabel: string
+  pdfLink?: string
   topics: string[]
 }
 
@@ -92,6 +93,14 @@ export default function PublicationsHighlights({ data }: { data: HighlightsData 
                     <a href={paper.link} target="_blank" rel="noopener noreferrer">
                       🔗
                     </a>
+                    {paper.pdfLink && (
+                      <>
+                        {' '}
+                        <a href={paper.pdfLink} target="_blank" rel="noopener noreferrer">
+                          📄
+                        </a>
+                      </>
+                    )}
                   </p>
                   <p
                     className="text-sm text-gray-500 mb-1"

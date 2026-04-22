@@ -54,6 +54,7 @@
       "summary": "How can an RL agent learn to cooperate when facing many different, anonymous opponents? Inspired by evolutionary game theory, we design agents that maintain cooperation across diverse partners without needing to model each one individually.",
       "link": "https://doi.org/10.1007/s00521-024-10511-9",
       "linkLabel": "Journal",
+      "pdfLink": "https://www.dropbox.com/scl/fo/6vkuvkqekm3frqul5w1dg/ALC8MQ47FiWlInB_S-3KfbA/Perera_et_al-2025-Neural_Computing_and_Applications.pdf?rlkey=15zecoyushs6xhq51vr6xyfkh&dl=0",
       "topics": ["ai"]
     },
     {
@@ -64,6 +65,7 @@
       "summary": "Can RL agents independently learn to use reputation to sustain cooperation? We show they can — but only with the right nudges. A combination of seeding and intrinsic rewards based on altruistic reciprocation stabilises cooperation even in fully decentralised settings.",
       "link": "https://dl.acm.org/doi/10.5555/3463952.3463972",
       "linkLabel": "Proceedings",
+      "pdfLink": "https://www.dropbox.com/scl/fo/6vkuvkqekm3frqul5w1dg/ALC8MQ47FiWlInB_S-3KfbA/p115.pdf?rlkey=15zecoyushs6xhq51vr6xyfkh&dl=0",
       "topics": ["ai"]
     },
     {
@@ -74,6 +76,7 @@
       "summary": "Rational debate requires cooperation — everyone benefits from reaching true beliefs, but nobody wants to be the one to change their mind. We show that this tension creates social dilemmas where individually optimal strategies undermine collective truth-seeking.",
       "link": "https://arxiv.org/abs/2504.06485",
       "linkLabel": "arXiv",
+      "pdfLink": "https://www.dropbox.com/scl/fo/6vkuvkqekm3frqul5w1dg/ALC8MQ47FiWlInB_S-3KfbA/2504.06485v1.pdf?rlkey=15zecoyushs6xhq51vr6xyfkh&dl=0",
       "topics": ["social"]
     },
     {
@@ -84,6 +87,7 @@
       "summary": "Most models of punishment restrict which strategies are available. We include all possible strategies — including anti-social ones — and find that coordinated pro-social institutions can still emerge, but only when individuals can observe and condition on whether such institutions exist.",
       "link": "https://royalsocietypublishing.org/doi/10.1098/rsif.2019.0127",
       "linkLabel": "Journal",
+      "pdfLink": "https://www.dropbox.com/scl/fo/6vkuvkqekm3frqul5w1dg/ALC8MQ47FiWlInB_S-3KfbA/rsif.2019.0127.pdf?rlkey=15zecoyushs6xhq51vr6xyfkh&dl=0",
       "topics": ["social"]
     },
     {
@@ -94,6 +98,7 @@
       "summary": "Direct reciprocity alone does not lead to high cooperation in well-mixed populations. But combine repeated interactions with even a small amount of population structure, and conditional cooperation thrives.",
       "link": "https://www.pnas.org/content/109/25/9929.abstract",
       "linkLabel": "Journal",
+      "pdfLink": "https://www.dropbox.com/scl/fo/6vkuvkqekm3frqul5w1dg/ALC8MQ47FiWlInB_S-3KfbA/11.pdf?rlkey=15zecoyushs6xhq51vr6xyfkh&dl=0",
       "topics": ["social", "gametheory"]
     },
     {
@@ -104,6 +109,7 @@
       "summary": "How modellers choose which strategies to include in evolutionary game theory models can quietly shape the conclusions. We propose principles for more systematic strategy selection and argue that AI methods can help build richer models of cooperation.",
       "link": "https://doi.org/10.1073/pnas.2319925121",
       "linkLabel": "Journal",
+      "pdfLink": "https://www.dropbox.com/scl/fo/6vkuvkqekm3frqul5w1dg/ALC8MQ47FiWlInB_S-3KfbA/garcia-traulsen-picking-strategies-in-games-of-cooperation.pdf?rlkey=15zecoyushs6xhq51vr6xyfkh&dl=0",
       "topics": ["gametheory", "ai"]
     },
     {
@@ -114,6 +120,7 @@
       "summary": "What happens when players can walk away and find a new partner? The option to leave actually increases cooperation — people end up choosing dependable partners, creating a form of assortment that standard repeated game models miss.",
       "link": "https://doi.org/10.1371/journal.pcbi.1012810",
       "linkLabel": "Journal",
+      "pdfLink": "https://www.dropbox.com/scl/fo/6vkuvkqekm3frqul5w1dg/ALC8MQ47FiWlInB_S-3KfbA/journal.pcbi.1012810.pdf?rlkey=15zecoyushs6xhq51vr6xyfkh&dl=0",
       "topics": ["gametheory", "social"]
     },
     {
@@ -124,6 +131,7 @@
       "summary": "For every Nash equilibrium in the repeated prisoner's dilemma, there are sequences of mutants that destabilise it. Populations cycle between equilibria with different levels of cooperation — and this instability is inescapable regardless of how strategies are represented.",
       "link": "https://www.frontiersin.org/articles/10.3389/frobt.2018.00102/full",
       "linkLabel": "Journal",
+      "pdfLink": "https://www.dropbox.com/scl/fo/6vkuvkqekm3frqul5w1dg/ALC8MQ47FiWlInB_S-3KfbA/20.pdf?rlkey=15zecoyushs6xhq51vr6xyfkh&dl=0",
       "topics": ["gametheory", "ai"]
     },
     {
@@ -134,6 +142,7 @@
       "summary": "We model how different incentives shape journal behaviour in peer review. When journals chase high rejection rates rather than quality, they are incentivised to make review less accurate — leading to worse papers being published.",
       "link": "https://doi.org/10.1017/psa.2023.81",
       "linkLabel": "Journal",
+      "pdfLink": "https://www.dropbox.com/scl/fo/6vkuvkqekm3frqul5w1dg/ALC8MQ47FiWlInB_S-3KfbA/academic-journals-incentives-and-the-quality-of-peer-review-a-model.pdf?rlkey=15zecoyushs6xhq51vr6xyfkh&dl=0",
       "topics": ["metascience"]
     },
     {
@@ -144,6 +153,7 @@
       "summary": "We train models to detect logical fallacies in climate misinformation, achieving 2.5–3.5x better detection than prior work. Fake experts and anecdotal arguments are easiest to catch; fallacies requiring background knowledge remain harder.",
       "link": "https://doi.org/10.1038/s41598-024-76139-w",
       "linkLabel": "Journal",
+      "pdfLink": "https://www.dropbox.com/scl/fo/6vkuvkqekm3frqul5w1dg/ALC8MQ47FiWlInB_S-3KfbA/s41598-024-76139-w.pdf?rlkey=15zecoyushs6xhq51vr6xyfkh&dl=0",
       "topics": ["metascience"]
     }
   ]
