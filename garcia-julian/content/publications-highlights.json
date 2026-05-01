@@ -27,6 +27,16 @@
   ],
   "papers": [
     {
+      "title": "Can We Volunteer Out of the Peer Review Crisis?",
+      "authors": "Theo Tang, Toby Handfield and <u>Julian García</u>",
+      "venue": "arXiv preprint",
+      "year": 2026,
+      "summary": "Peer review is overloaded. We propose a voluntary lottery where authors accept a chance of random pre-review rejection, reducing reviewer burden. Authors who care about literature quality rationally participate — improving review standards across the field.",
+      "link": "https://arxiv.org/abs/2604.27900",
+      "linkLabel": "arXiv",
+      "topics": ["gametheory", "metascience"]
+    },
+    {
       "title": "Group Selection as a Safeguard Against AI Substitution",
       "authors": "Qiankun Zhong, Thomas F. Eisenmann, <u>Julian García</u> and Iyad Rahwan",
       "venue": "arXiv preprint",

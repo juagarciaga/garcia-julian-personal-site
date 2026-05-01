@@ -55,6 +55,11 @@ Direct reciprocity alone does not lead to high cooperation in well-mixed populat
 
 We work on foundational questions in evolutionary game theory — how strategies evolve in repeated interactions, what role mutation and strategy selection play, and why equilibrium results can be misleading.
 
+**Can We Volunteer Out of the Peer Review Crisis?** [[arXiv]](https://arxiv.org/abs/2604.27900)
+Theo Tang, Toby Handfield and <u>Julian García</u>. **arXiv preprint**, 2026.
+
+Peer review is overloaded. We propose a voluntary lottery where authors accept a chance of random pre-review rejection, reducing reviewer burden. Authors who care about literature quality rationally participate — improving review standards across the field.
+
 **Picking strategies in games of cooperation** [[Journal]](https://doi.org/10.1073/pnas.2319925121) [[pdf]](/papers/garcia-traulsen-picking-strategies-in-games-of-cooperation.pdf)
 <u>Julian García</u> and Arne Traulsen. **PNAS**, 2025.
 
@@ -75,6 +80,11 @@ For every Nash equilibrium in the repeated prisoner's dilemma, there are sequenc
 ### 🔬 Science of Science
 
 Scientific institutions — journals, peer review, public communication — are themselves strategic systems. We apply game theory to understand how incentives shape the quality of science and its public understanding.
+
+**Can We Volunteer Out of the Peer Review Crisis?** [[arXiv]](https://arxiv.org/abs/2604.27900)
+Theo Tang, Toby Handfield and <u>Julian García</u>. **arXiv preprint**, 2026.
+
+Peer review is overloaded. We propose a voluntary lottery where authors accept a chance of random pre-review rejection, reducing reviewer burden. Authors who care about literature quality rationally participate — improving review standards across the field.
 
 **Academic journals, incentives, and the quality of peer review: a model** [[Journal]](https://doi.org/10.1017/psa.2023.81) [[pdf]](/papers/academic-journals-incentives-and-the-quality-of-peer-review-a-model.pdf)
 Kevin J. S. Zollman, <u>Julian García</u> and Toby Handfield. **Philosophy of Science**, 2023.
